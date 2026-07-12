@@ -163,7 +163,7 @@ Example response:
   "sources": [
     {
       "source": "model_calibration.txt",
-      "chunk_index": 0,
+      "chunk_id": "model-calibration-001",
       "score": 0.3217
     }
   ]
@@ -186,8 +186,8 @@ On the included sample evaluation set:
 ```text
 Hit@K: 1.0
 MRR: 1.0
-Mean Answer Term Recall: 1.0
-Mean Groundedness: 1.0
+Mean Answer Term Recall: 0.8
+Mean Groundedness: 0.956
 Number of Questions: 5
 ```
 
