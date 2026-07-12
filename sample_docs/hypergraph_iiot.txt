@@ -1,0 +1,3 @@
+Hypergraph spectral analysis can model coordinated attacks in Industrial Internet of Things networks. Unlike pairwise graphs, hypergraphs represent simultaneous multi-device interactions as hyperedges. This helps capture higher-order attack patterns where multiple compromised devices coordinate together.
+
+Normalized hypergraph Laplacian concepts and spectral perturbation analysis can help distinguish benign topology changes from coordinated attack behavior. The project connects IIoT security, intrusion detection, cyber-physical systems, network science, hypergraph theory, spectral analysis, and mathematical modeling.

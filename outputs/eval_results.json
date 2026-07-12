@@ -1,0 +1,79 @@
+{
+  "summary": {
+    "hit_at_k": 1.0,
+    "mean_reciprocal_rank": 1.0,
+    "mean_answer_term_recall": 0.8,
+    "mean_groundedness": 0.956,
+    "top_k": 3,
+    "num_questions": 5
+  },
+  "details": [
+    {
+      "question": "What does PIRGE predict before inference?",
+      "expected_source": "pirge.txt",
+      "retrieved_sources": [
+        "pirge.txt"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer_term_recall": 1.0,
+      "groundedness": 0.9667,
+      "answer": "These features can be used to predict output tokens, energy, latency, and peak memory before inference. [pirge.txt] PIRGE, or Pre-Inference Reasoning Graph Estimation, converts natural-language prompts into reasoning graphs before model execution. [pirge.txt]"
+    },
+    {
+      "question": "Why are hypergraphs useful for coordinated IIoT attacks?",
+      "expected_source": "hypergraph_iiot.txt",
+      "retrieved_sources": [
+        "hypergraph_iiot.txt",
+        "moga_fcm.txt"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer_term_recall": 0.6667,
+      "groundedness": 0.9615,
+      "answer": "Hypergraph spectral analysis can model coordinated attacks in Industrial Internet of Things networks. [hypergraph_iiot.txt] Unlike pairwise graphs, hypergraphs represent simultaneous multi-device interactions as hyperedges. [hypergraph_iiot.txt] Normalized hypergraph Laplacian concepts and spectral perturbation analysis can help distinguish benign topology changes from coordinated attack behavior. [hypergraph_iiot.txt] The project connects IIoT security, intrusion detection, cyber-physical systems, network science, hypergraph theory, spectral analysis, and mathematical modeling. [hypergraph_iiot.txt]"
+    },
+    {
+      "question": "Which metrics are used for model calibration?",
+      "expected_source": "model_calibration.txt",
+      "retrieved_sources": [
+        "model_calibration.txt",
+        "pirge.txt",
+        "moga_fcm.txt"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer_term_recall": 1.0,
+      "groundedness": 0.9623,
+      "answer": "Model calibration studies whether predicted confidence matches actual correctness. [model_calibration.txt] A model can have high accuracy but still be overconfident, especially under noise or distribution shift. [model_calibration.txt] Calibration diagnostics include Expected Calibration Error, reliability diagrams, class-wise calibration, Brier score, confidence-error coupling, and temperature scaling. [model_calibration.txt] Calibration and overconfidence analysis can compare logistic regression, random forests, and neural networks under clean, noisy, and out-of-distribution settings. [model_calibration.txt]"
+    },
+    {
+      "question": "How does MOGA-FCM support cognitive load detection?",
+      "expected_source": "moga_fcm.txt",
+      "retrieved_sources": [
+        "moga_fcm.txt",
+        "eeg_topology.txt",
+        "hypergraph_iiot.txt"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer_term_recall": 0.6667,
+      "groundedness": 0.9483,
+      "answer": "It can reduce high-dimensional wearable physiological features into compact driver-specific subsets for cognitive load detection in ADAS settings. [moga_fcm.txt] MOGA-FCM combines multi-objective genetic algorithm feature selection with Bayesian-optimized Fuzzy C-Means clustering. [moga_fcm.txt] It models overlapping cognitive states as continuous transitions and compares results against clustering baselines. [moga_fcm.txt] Persistent homology, clique filtrations, and topological network descriptors can reveal higher-order structure in brain-state organization under cognitive demand. [eeg_topology.txt]"
+    },
+    {
+      "question": "How is topology used for EEG functional connectivity?",
+      "expected_source": "eeg_topology.txt",
+      "retrieved_sources": [
+        "eeg_topology.txt",
+        "moga_fcm.txt",
+        "hypergraph_iiot.txt"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer_term_recall": 0.6667,
+      "groundedness": 0.9412,
+      "answer": "Topological data analysis can study EEG brain dynamics and functional connectivity. [eeg_topology.txt] These methods explore functional connectivity, workload-related changes, and recurrence organization beyond conventional graph summaries. [eeg_topology.txt] Topology-aware EEG analysis can include Neurophysiological Weighted Clique Filtration and Persistent Diagram Recurrence Homology. [eeg_topology.txt] It can reduce high-dimensional wearable physiological features into compact driver-specific subsets for cognitive load detection in ADAS settings. [moga_fcm.txt]"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+Model calibration studies whether predicted confidence matches actual correctness. A model can have high accuracy but still be overconfident, especially under noise or distribution shift. Calibration diagnostics include Expected Calibration Error, reliability diagrams, class-wise calibration, Brier score, confidence-error coupling, and temperature scaling.
+
+Calibration and overconfidence analysis can compare logistic regression, random forests, and neural networks under clean, noisy, and out-of-distribution settings. The goal is to evaluate model reliability beyond accuracy.

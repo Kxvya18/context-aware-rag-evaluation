@@ -1,0 +1,6 @@
+question,expected_source,expected_terms
+What does PIRGE predict before inference?,pirge.txt,output tokens|energy|latency|peak memory
+Why are hypergraphs useful for coordinated IIoT attacks?,hypergraph_iiot.txt,hyperedges|higher-order|coordinated
+Which metrics are used for model calibration?,model_calibration.txt,Expected Calibration Error|Brier score|temperature scaling
+How does MOGA-FCM support cognitive load detection?,moga_fcm.txt,Fuzzy C-Means|feature selection|silhouette
+How is topology used for EEG functional connectivity?,eeg_topology.txt,persistent homology|clique filtrations|functional connectivity

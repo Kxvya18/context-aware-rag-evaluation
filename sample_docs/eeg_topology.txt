@@ -1,0 +1,3 @@
+Topological data analysis can study EEG brain dynamics and functional connectivity. Persistent homology, clique filtrations, and topological network descriptors can reveal higher-order structure in brain-state organization under cognitive demand.
+
+Topology-aware EEG analysis can include Neurophysiological Weighted Clique Filtration and Persistent Diagram Recurrence Homology. These methods explore functional connectivity, workload-related changes, and recurrence organization beyond conventional graph summaries.

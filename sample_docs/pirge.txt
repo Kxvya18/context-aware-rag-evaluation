@@ -1,0 +1,3 @@
+PIRGE, or Pre-Inference Reasoning Graph Estimation, converts natural-language prompts into reasoning graphs before model execution. It extracts morphology features such as node count, graph depth, branching, density, dependency types, task diversity, and complexity. These features can be used to predict output tokens, energy, latency, and peak memory before inference.
+
+PIRGE-W extends the idea into a water-aware LLM execution controller. It selects model tier, data center, cooling mode, scheduling mode, and graph-conditioned actions under latency and quality constraints. The project generates audit artifacts such as water-saving certificates, subgraph-level water attribution, ablation results, morphology plots, and graph-preserving transformation summaries.

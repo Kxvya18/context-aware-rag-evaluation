@@ -1,0 +1,3 @@
+MOGA-FCM combines multi-objective genetic algorithm feature selection with Bayesian-optimized Fuzzy C-Means clustering. It can reduce high-dimensional wearable physiological features into compact driver-specific subsets for cognitive load detection in ADAS settings.
+
+The method uses objectives such as silhouette, within-cluster distance, between-cluster distance, mutual information, and feature count. It models overlapping cognitive states as continuous transitions and compares results against clustering baselines.
